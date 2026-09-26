@@ -1,0 +1,15 @@
+mod	defName	treatment	material	author_analog
+Combat Extended Armory	CE_Turret_* / Turret_* (24 conventional guns)	cement	EM_CementMix 25%	VFES autocannon/minigun/AntiAir + VFED siege emplacements
+Combat Extended Guns	CE_Artillery_Howitzer	cement	EM_CementMix 25%	VFED siege class
+Alpha Biomes	AB_Turret_Propane	cement	EM_CementMix 25%	conventional mounted turret
+Alpha Biomes	AB_MagmaThermalPlant / _Advanced	cement	EM_CementMix 25%	VPE_AdvancedGeothermalGenerator civil plant
+Alpha Biomes	AB_CoreSampleDrill	cement	EM_CementMix 25%	VCHE_DeepchemPumpjack extraction rig
+Alpha Biomes	AB_BoneDistillery	cement	EM_CementMix 25%	GR_GenePod / MechGestator standalone bio-processor
+Vanilla Quests Expanded - The Generator	VQE_AncientGeothermalGenetron	cement	EM_CementMix 25%	geothermal civil plant
+Vanilla Quests Expanded - The Generator	VQE_Genetron_Geothermal	cement	EM_CementMix 25%	geothermal civil plant
+Vanilla Quests Expanded - The Generator	VQE_Genetron_ThermalVent	cement	EM_CementMix 25%	geothermal civil plant
+Vanilla Quests Expanded - The Generator	VQE_Genetron_SteamPowered	cement	EM_CementMix 25%	civil steam plant
+Vanilla Quests Expanded - The Generator	VQE_Genetron_Nuclear	cement	EM_CementMix 25%	VPE_NuclearGenerator civil plant
+Vanilla Quests Expanded - Drone Factory	VFEFactory_DroneAutofactory	both	EM_TemperedSteel 50% (Metals patch) + EM_CementMix 25%	VFEFactory_* automation machine
+Vanilla Chemfuel Expanded	PS_DeepchemRefinery	deferred	(EMMas cements it directly)	author covers this exact def
+Vanilla Chemfuel Expanded	VCHE_DeepchemPumpjack	deferred	(EMMas cements it directly)	author covers this exact def

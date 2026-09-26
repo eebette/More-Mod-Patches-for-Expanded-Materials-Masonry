@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+    <li IfModActive="sarg.alphabiomes">ModPatches/1.6/AlphaBiomes</li>
+    <li IfModActive="CETeam.CombatExtendedArmory">ModPatches/1.6/CombatExtendedArmory</li>
+    <li IfModActive="CETeam.CombatExtendedGuns">ModPatches/1.6/CombatExtendedGuns</li>
+    <li IfModActive="vanillaquestsexpanded.dronefactory">ModPatches/1.6/VanillaQuestsExpandedDroneFactory</li>
+    <li IfModActive="vanillaquestsexpanded.generator">ModPatches/1.6/VanillaQuestsExpandedTheGenerator</li>
+  </v1.6>
+</loadFolders>

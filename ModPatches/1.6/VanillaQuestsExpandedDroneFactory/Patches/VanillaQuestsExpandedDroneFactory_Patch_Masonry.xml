@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Vanilla Quests Expanded - Drone Factory: EMM-Masonry concrete coverage (automated factory, concrete pad under the TemperedSteel chassis from the Metals patch). -->
+<Patch>
+  <Operation Class="ArgonicCore.PatchOperations.PatchOperationDistributeCost">
+    <xpath>/Defs/ThingDef[defName="VFEFactory_DroneAutofactory"]/costList/Steel</xpath>
+    <newMaterial>EM_CementMix</newMaterial>
+    <percentage>25</percentage>
+    <extraCostFactor>2</extraCostFactor>
+  </Operation>
+</Patch>

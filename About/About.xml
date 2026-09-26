@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>More Mod Patches for Expanded Materials - Masonry</name>
+  <packageId>eebette.MoreModPatchesForExpandedMaterialsMasonry</packageId>
+  <author>eebette</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Extends the concrete treatment of Expanded Materials - Masonry (EMMas) to modded Steel-costing buildings that EMMas's own ModPatches do not cover.
+
+Using EMMas's own ArgonicCore PatchOperationDistributeCost with its Steel-base parameters (25% of Steel -> EM_CementMix, factor 2), it gives a concrete component to the heavy conventional / civil / structural buildings the author would build from concrete:
+- conventional turrets and artillery (mounted guns on concrete emplacements)
+- civil power plants (magma-thermal / geothermal / steam / nuclear generators)
+- heavy extraction rigs and standalone processors
+- automated factory machinery (concrete pad under a metal chassis)
+
+A building is concrete when the author's own EMMas would treat it as concrete, and metal otherwise. Assignments are audited by an independent adversarial pass, and coordinated with More Mod Patches for Expanded Materials - Metals so a building's Steel is split between metal and cement the way the author intends (metals first, then cement).
+
+Load after Expanded Materials - Masonry.</description>
+  <modDependencies>
+    <li>
+      <packageId>Argon.CoreLib</packageId>
+      <displayName>Argonic Core</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2944251509</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Argon.ExpandedMaterials.Masonry</packageId>
+      <displayName>Expanded Materials - Masonry</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3662913084</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Argon.ExpandedMaterials.Masonry</li>
+    <li>eebette.MoreModPatchesForExpandedMaterialsMetals</li>
+  </loadAfter>
+</ModMetaData>

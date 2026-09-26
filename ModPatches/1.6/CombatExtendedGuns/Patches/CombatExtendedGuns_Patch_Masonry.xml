@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Combat Extended Guns: EMM-Masonry concrete coverage (artillery emplacement). -->
+<Patch>
+  <Operation Class="ArgonicCore.PatchOperations.PatchOperationDistributeCost">
+    <xpath>/Defs/ThingDef[defName="CE_Artillery_Howitzer"]/costList/Steel</xpath>
+    <newMaterial>EM_CementMix</newMaterial>
+    <percentage>25</percentage>
+    <extraCostFactor>2</extraCostFactor>
+  </Operation>
+</Patch>
