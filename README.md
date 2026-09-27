@@ -40,23 +40,23 @@ share first and cement takes 25% of the remainder - the author's metals-first or
 
 ## Covered buildings
 
-37 buildings across 5 mods. Each mod has its own `IfModActive`-gated folder, so only the mods you actually run are
+24 buildings across 5 mods. Each mod has its own `IfModActive`-gated folder, so only the mods you actually run are
 touched. Expand for the exact defs:
 
-<details><summary>Combat Extended Armory (24)</summary>
+<details><summary>Combat Extended Armory (12)</summary>
 
-- `CE_Turret_12PounderBombard` / `Turret_12PounderBombard` - 12-pounder bombard
-- `CE_Turret_GatlingGun` / `Turret_GatlingGun` - Gatling gun
-- `CE_Turret_M1919Browning` / `Turret_M1919Browning` - M1919 machine gun
-- `CE_Turret_M2HB` / `Turret_M2HB` - M2 Browning machine gun
-- `CE_Turret_MkNineteenGL` / `Turret_MkNineteenGL` - Mk 19 grenade launcher
-- `CE_Turret_OrganGun` / `Turret_OrganGun` - organ gun
-- `CE_Turret_PKM` / `Turret_PKM` - PKM machine gun
-- `CE_Turret_PortableMortar` / `Turret_PortableMortar` - 60mm portable mortar
-- `CE_Turret_SPGNine` / `Turret_SPGNine` - SPG-9 recoilless gun
-- `CE_Turret_ShotgunTurret` / `Turret_ShotgunTurret` - shotgun auto-turret
-- `CE_Turret_TwelvePounder` / `Turret_TwelvePounder` - 12-pounder cannon
-- `CE_Turret_Vickers` / `Turret_Vickers` - Vickers machine gun
+- `CE_Turret_12PounderBombard` - 12-pounder bombard
+- `CE_Turret_GatlingGun` - Gatling gun
+- `CE_Turret_M1919Browning` - M1919 machine gun
+- `CE_Turret_M2HB` - M2 Browning machine gun
+- `CE_Turret_MkNineteenGL` - Mk 19 grenade launcher
+- `CE_Turret_OrganGun` - organ gun
+- `CE_Turret_PKM` - PKM machine gun
+- `CE_Turret_PortableMortar` - 60mm portable mortar
+- `CE_Turret_SPGNine` - SPG-9 recoilless gun
+- `CE_Turret_ShotgunTurret` - shotgun auto-turret
+- `CE_Turret_TwelvePounder` - 12-pounder cannon
+- `CE_Turret_Vickers` - Vickers machine gun
 
 </details>
 
