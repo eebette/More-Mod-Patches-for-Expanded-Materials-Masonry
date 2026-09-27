@@ -14,9 +14,9 @@ partly from cement instead of pure Steel.
 
 ## How it works
 
-It reuses EMMas's own `ArgonicCore.PatchOperations.PatchOperationDistributeCost` with EMMas's own parameter - **25% of a
-building's `Steel` cost becomes `EM_CementMix`** (`extraCostFactor 2`) - so its ops are indistinguishable in form and
-numbers from EMMas's hand-written ones. A building gets concrete when the author would build it from concrete:
+It reuses EMMas's own `ArgonicCore.PatchOperations.PatchOperationDistributeCost` with EMMas's own parameters - **25% of a
+building's `Steel` cost becomes `EM_CementMix`** (`extraCostFactor 2`; 2.5 on factory machinery, as EMMas itself uses
+for VFE Factory) - so its ops are indistinguishable in form and numbers from EMMas's hand-written ones. A building gets concrete when the author would build it from concrete:
 
 > a mounted conventional gun sits on a concrete emplacement; a civil power plant has a concrete foundation; a heavy
 > extraction rig or bio-processor is a poured structure. Sleek energy/precision/reactor tech stays metal (that is the
@@ -32,11 +32,13 @@ independent adversarial pass.
 | **Conventional turrets & artillery** | MG/autocannon emplacements, field guns, mortars, howitzers | 25% / factor 2 |
 | **Civil power plants** | magma-thermal, geothermal, steam, nuclear generators | 25% / factor 2 |
 | **Heavy extraction / bio rigs** | core drills, bone drills | 25% / factor 2 |
-| **Automated factory machinery** | concrete pad under the metal chassis | 25% / factor 2 |
+| **Automated factory machinery** | concrete pad under the metal chassis | 25% / factor 2.5 |
 
 Only the building's `Steel` is drawn from; other costs are left untouched. On the factory machine that also gets metal,
-the [Metals patch](https://github.com/eebette/More-Mod-Patches-for-Expanded-Materials-Metals) takes its TemperedSteel
-share first and cement takes 25% of the remainder - the author's metals-first order.
+cement takes its 25% of the original Steel first and the
+[Metals patch](https://github.com/eebette/More-Mod-Patches-for-Expanded-Materials-Metals) then takes its TemperedSteel
+share of the remainder - the author's order (Expanded Materials - Masonry declares `loadBefore` Expanded Materials -
+Metals, and the two share 19 buildings that are split exactly this way).
 
 ## Covered buildings
 
@@ -97,12 +99,14 @@ patch leaves them alone (the Metals patch drops their metal so the author's ceme
 
 ## Load order
 
-> RimWorld -> Argonic Core -> Expanded Materials - Masonry -> Metals mod patches -> this mod.
+> RimWorld -> Argonic Core -> Expanded Materials - Masonry -> this mod -> Metals mod patches.
 
 Requires [Argonic Core](https://steamcommunity.com/sharedfiles/filedetails/?id=2944251509) and
-[Expanded Materials - Masonry][emmas]; load it **after** EMMas, and after
+[Expanded Materials - Masonry][emmas]; load it **after** EMMas and **before**
 [More Mod Patches for Expanded Materials - Metals](https://github.com/eebette/More-Mod-Patches-for-Expanded-Materials-Metals)
-if you run it, so metal is drawn before cement.
+if you run it - the same order the author uses for the two base mods, so cement is drawn first and metal takes its
+share of the remainder. (Running Combat Extended? Load the whole Expanded Materials stack after CE, or CE's later
+`costList` rewrites discard the cement on the vanilla turrets EMMas itself patches.)
 
 ## My other mods
 
@@ -172,7 +176,9 @@ Which buildings get concrete follows EMMas's own choices, not a rule invented he
   its XML and challenged every assignment; it also flagged and corrected metal-side mistakes in the sibling Metals
   patch (conventional turrets/generators that had been metal are now concrete; industrial machinery moved from Titanium
   to the author's TemperedSteel).
-- `EM_CementMix` at 25% / factor 2 is EMMas's own standard; nothing here uses an invented number.
+- `EM_CementMix` at 25% / factor 2 is EMMas's standard for turrets, power plants and rigs; EMMas uses factor 2.5 for VFE
+  Factory machinery (mirrored here on the autofactory) and 75% / 1.5 once, for one special turret. Nothing here uses an
+  invented number.
 
 ## Structure
 

@@ -8,15 +8,15 @@
   </supportedVersions>
   <description>Extends the concrete treatment of Expanded Materials - Masonry (EMMas) to modded Steel-costing buildings that EMMas's own ModPatches do not cover.
 
-Using EMMas's own ArgonicCore PatchOperationDistributeCost with its Steel-base parameters (25% of Steel -> EM_CementMix, factor 2), it gives a concrete component to the heavy conventional / civil / structural buildings the author would build from concrete:
+Using EMMas's own ArgonicCore PatchOperationDistributeCost with its Steel-base parameters (25% of Steel -> EM_CementMix, factor 2; factor 2.5 on factory machinery, as EMMas itself does), it gives a concrete component to the heavy conventional / civil / structural buildings the author would build from concrete:
 - conventional turrets and artillery (mounted guns on concrete emplacements)
 - civil power plants (magma-thermal / geothermal / steam / nuclear generators)
 - heavy extraction rigs and standalone processors
 - automated factory machinery (concrete pad under a metal chassis)
 
-A building is concrete when the author's own EMMas would treat it as concrete, and metal otherwise. Assignments are audited by an independent adversarial pass, and coordinated with More Mod Patches for Expanded Materials - Metals so a building's Steel is split between metal and cement the way the author intends (metals first, then cement).
+A building is concrete when the author's own EMMas would treat it as concrete, and metal otherwise. Assignments are audited by an independent adversarial pass, and coordinated with More Mod Patches for Expanded Materials - Metals so a building's Steel is split between cement and metal the way the author orders it: EMMas loads before Expanded Materials - Metals, so cement is drawn first and metal takes its share of the remainder.
 
-Load after Expanded Materials - Masonry.</description>
+Load after Expanded Materials - Masonry and before More Mod Patches for Expanded Materials - Metals.</description>
   <modDependencies>
     <li>
       <packageId>Argon.CoreLib</packageId>
@@ -31,6 +31,8 @@ Load after Expanded Materials - Masonry.</description>
   </modDependencies>
   <loadAfter>
     <li>Argon.ExpandedMaterials.Masonry</li>
-    <li>eebette.MoreModPatchesForExpandedMaterialsMetals</li>
   </loadAfter>
+  <loadBefore>
+    <li>eebette.MoreModPatchesForExpandedMaterialsMetals</li>
+  </loadBefore>
 </ModMetaData>
