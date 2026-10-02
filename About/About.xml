@@ -6,52 +6,9 @@
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>[h1]Summary[/h1]
+  <description>More mod patches for Expanded Materials - Masonry. 
 
-More mod patches for Expanded Materials - Masonry. 
-
-I did my best to make it consistent with existing mod patches written by the original author. 
-
-[h1]Covered Mods[/h1]
-
-[list]Combat Extended Armory[/list]
-[list]Combat Extended Guns[/list]
-[list]Alpha Biomes[/list]
-[list]Vanilla Quests Expanded - The Generator[/list]
-[list]Vanilla Quests Expanded - Drone Factory[/list]
-
-[h1]Load Order[/h1]
-[list]After [b]Expanded Materials - Masonry[/b] [/list]
-[list]Before [b]More Mod Patches for Expanded Materials - Metals[/b] (if you use that too)[/list]
-
-[h1]Thanks[/h1]
-Argon - I like your mods! I'd be happy to merge these into your parent mod/repo and deprecate this. Let me know!
-
-[h1]Links[/h1]
-
-[url=https://github.com/eebette/More-Mod-Patches-for-Expanded-Materials-Masonry]Github[/url] - PRs welcome.
-
-[h1]My other mods[/h1]
-
-[h2]Expanded Materials patches[/h2]
-[table]
-[tr][th]Mod[/th][th]What it does[/th][/tr]
-[tr][td][url=https://github.com/eebette/More-Mod-Patches-for-Expanded-Materials-Metals][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_MMP.png[/img][/url][/td][td]Extends [url=url=https://steamcommunity.com/sharedfiles/filedetails/?id=3662913084]Expanded Materials - Metals[/url] to support additional mods.[/td][/tr]
-[/table]
-[h2][b][COMING SOON][/b] The CE + Simple Sidearms suite[/h2]
-[table]
-[tr][th]Module[/th][th]What it does[/th][/tr]
-[tr][td][url=https://github.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_Patch.png[/img][/url][/td][td][b][COMING SOON][/b] Core compatibility patch for Combat Extended and Simple Sidearms.[/td][/tr]
-[tr][td][url=https://github.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Loadouts][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_Loadouts.png[/img][/url][/td][td]Syncs loadouts between Combat Extended and Simple Sidearms.[/td][/tr]
-[tr][td][url=https://github.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Tactics][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_Tactics.png[/img][/url][/td][td]Sensible tweaks to nonsense pawn behavior when CE + SS run together.[/td][/tr]
-[/table]
-
-[h2][b][COMING SOON][/b] Standalone[/h2]
-[table]
-[tr][th]Mod[/th][th]What it does[/th][/tr]
-[tr][td][url=https://github.com/eebette/Better-Attack-Orders-for-Simple-Sidearms][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_BAO.png[/img][/url][/td][td]Adds sidearm attack orders to the right-click target menu.[/td][/tr]
-[tr][td][url=https://github.com/eebette/Pawns-Optimize-Weapon-Quality][img]https://raw.githubusercontent.com/eebette/CombatExtended-SimpleSidearms-Compatibility-Patch/main/Media/Badge_POWQ.png[/img][/url][/td][td]Pawns will upgrade their held guns when a higher-quality copy is available.[/td][/tr]
-[/table]</description>
+I did my best to make it consistent with existing mod patches written by the original author.</description>
   <modDependencies>
     <li>
       <packageId>Argon.CoreLib</packageId>
