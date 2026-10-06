@@ -10,7 +10,7 @@ conventions.
 
 [emmas]: https://steamcommunity.com/sharedfiles/filedetails/?id=3662913084
 
-## What it covers
+## Coverage
 
 | Concrete goes on | Examples | EMMas param |
 |---|---|---|
@@ -18,8 +18,6 @@ conventions.
 | **Civil power plants** | magma-thermal, geothermal, steam, nuclear generators | 25% / factor 2 |
 | **Heavy extraction / bio rigs** | core drills, bone drills | 25% / factor 2 |
 | **Automated factory machinery** | concrete pad under the metal chassis | 25% / factor 2.5 |
-
-## Covered buildings
 
 24 buildings across 5 mods:
 
