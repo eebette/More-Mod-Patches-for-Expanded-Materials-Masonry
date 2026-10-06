@@ -137,7 +137,7 @@ outside of this community space. Thank you.
 
 ## Credit
 
-[Argon][emmas], for some really awesome mods..
+[Argon][emmas], for some really awesome mods.
 
 ## License
 
