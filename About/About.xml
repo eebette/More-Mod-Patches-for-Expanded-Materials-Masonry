@@ -23,6 +23,7 @@ I did my best to make it consistent with existing mod patches written by the ori
   </modDependencies>
   <loadAfter>
     <li>Argon.ExpandedMaterials.Masonry</li>
+    <li>CETeam.CombatExtended</li>
   </loadAfter>
   <loadBefore>
     <li>eebette.MoreModPatchesForExpandedMaterialsMetals</li>
