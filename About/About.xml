@@ -6,9 +6,7 @@
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>More mod patches for Expanded Materials - Masonry. 
-
-I did my best to make it consistent with existing mod patches written by the original author.</description>
+  <description>More mod patches for Expanded Materials - Masonry.</description>
   <modDependencies>
     <li>
       <packageId>Argon.CoreLib</packageId>
